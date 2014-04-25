@@ -36,7 +36,7 @@ public class SurfboardServiceImpl implements SurfboardService {
 	        Surfboard deletedSurfboard = surfboardRepository.findOne(id);  
 	          
 	        if (deletedSurfboard == null)  
-	            throw new SurfboardNotFound("No surfboard found");  
+	            throw new SurfboardNotFound("No surfboard found to delete with id " + id);  
 	          
 	        surfboardRepository.delete(deletedSurfboard);  
 	        return deletedSurfboard;  
