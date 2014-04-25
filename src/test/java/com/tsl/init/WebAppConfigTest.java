@@ -17,6 +17,7 @@ import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+@SuppressWarnings("deprecation")
 @Configuration
 @EnableTransactionManagement
 @ComponentScan("com.tsl.service")

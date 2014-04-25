@@ -20,7 +20,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.JstlView;
 import org.springframework.web.servlet.view.UrlBasedViewResolver;
 
-    @Configuration  
+    @SuppressWarnings("deprecation")
+	@Configuration  
     @EnableWebMvc  
     @EnableTransactionManagement  
     @ComponentScan("com.tsl")  
