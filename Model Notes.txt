@@ -7,3 +7,4 @@ Session
 			- wave direction
 			- wind strength
 			- wind direction
+			- example
