@@ -14,13 +14,8 @@
 <tbody>
 <tr>
 <td>Surfboard name:</td>
-<td><form:input path="name" /></td>
-<td><form:errors path="name" cssStyle="color: red;"/></td>
-</tr>
-<tr>
-<td>Employees number:</td>
-<td><form:input path="emplNumber" /></td>
-<td><form:errors path="emplNumber" cssStyle="color: red;"/></td>
+<td><form:input path="surfboardname" /></td>
+<td><form:errors path="surfboardname" cssStyle="color: red;"/></td>
 </tr>
 <tr>
 <td><input type="submit" value="Create" /></td>
